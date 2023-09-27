@@ -98,7 +98,7 @@ After Running this command, the placemnt def file is created inside the dir runs
  
  Step-8:Provide the necessary simulation commands
  
-** Timing Characterization**
+**Timing Characterization**
 - slew_low_rise_thr = 20%
 - slew_high_rise_thr = 80%
 - slew_low_fall_thr = 20%
