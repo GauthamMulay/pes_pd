@@ -3,20 +3,24 @@
 **Utilization Factor and Aspect Ratio**
 1) Defining width and height of core and die
 Consider a netlist with flip-flops and combinational logic. We use combinational logic in terms of blocks to calculate the area.
+<img width="438" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/4fca5292-eb6f-4e36-a1a7-e95f333856ba">
 
 
 - We consider a simple netlist with a Launch and Capture Flop. It also has an AND and an OR gate.
 - We then convert it into squares since we need appropriate dimensions
   
+<img width="329" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/da0fb347-0c7c-401f-a7f6-6746bbc17169">
 
 
 - Let us consider the areas of the gates and Flops as 1 sq unit
 
+<img width="188" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/bd162f27-9416-427a-a9fd-d98d2fa70761">
 
 - Clubbing them together, we get an area of 4 square units
 - The 'core' section of a chip is where the fundamental logic design is placed.
 - The 'die' area contains the core and is a small semiconductor area on which the fundamental circuit is fabricated.
 
+<img width="178" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/279c5754-92fd-4e76-9bfc-1be499b9900c">
 
 
 - Now we put the netlist in the 'core' area and check the utilization. Using the formula
@@ -29,6 +33,7 @@ Consider a netlist with flip-flops and combinational logic. We use combinational
 **Concept of Pre Placed Cells**
 - We take the below combinational logic as an example
 
+<img width="302" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/13c3144e-1cad-4d36-af15-b29704a8f782">
 
 **Running floorplan**
 Use Command ```run_floorplan``` to run the placement 
