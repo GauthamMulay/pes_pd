@@ -22,6 +22,7 @@ PDK stands for Process Design Kit.
 
 **OpenLANE ASIC Flow**
 
+<img width="466" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/27e8b1a3-edcf-4184-8efc-5ca23c987266">
 
 
 ### Getting fimilarising with OpenSource EDA tools
