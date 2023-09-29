@@ -31,18 +31,23 @@ PDK stands for Process Design Kit.
 - initally when we open the file loaction we will not have any runs directory as we havent prepare our design
 #### Working with openlane 
 - Enter the follow comands to work with openlane pdk and prep the design
-  ```
-  #### You should be in the directory /Desktop/work/openlane_working_dir/openlane
+  
+  #### You should be in the directory
+```
+  /Desktop/work/openlane_working_dir/openlane
   doker
   ./flow.tcl -interactive
   ```
-  
+  ![D1_opelane](https://github.com/GauthamMulay/pes_pd/assets/113660503/57a1577b-092c-4d96-bd8e-9defe01aaf52)
+
 - Now to prep the design run the following command ```prep -design picorev32a``` after running this command we will see a new directry created called as run
 
 - Now to run synthesis run the following command ```run_synthesis```
   
-  
+  ![d1_synthesis](https://github.com/GauthamMulay/pes_pd/assets/113660503/8d9d992f-b4a5-4047-a2e0-45a923966dbd)
+
   
 - From these results the flop ratio is calculate by the formula ```number of flops/total number of cells``` in this case it is equal to 0.108
 - After running the synthesis there will be a netlist file created under the folder runs
 
+![D1_synpwd](https://github.com/GauthamMulay/pes_pd/assets/113660503/fb149a05-8225-446c-aecf-65f3517bcd1e)
