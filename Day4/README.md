@@ -1,6 +1,6 @@
-##Day 4
-###Timing modeling using delay tables
-####Lab steps to convert grid info to track info:
+## Day 4
+### Timing modeling using delay tables
+#### Lab steps to convert grid info to track info:
 1.Certain guidelines to follow while making a std cell:
 
 - The input and output ports must lie on the intersection of the vertical and the horizontal tracks.
