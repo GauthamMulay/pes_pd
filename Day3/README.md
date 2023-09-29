@@ -39,6 +39,7 @@ set ::env(FP_IO_MODE) 2
   ``` bash
   magic -T sky130A.tech sky130_inv.mag
   ```
+![D3_inv_full](https://github.com/GauthamMulay/pes_pd/assets/113660503/29e7e799-fd4a-4537-a694-d97e610ebd82)
 
 **16 Mask CMOS Process**
 
@@ -67,7 +68,13 @@ set ::env(FP_IO_MODE) 2
   ext2spice cthresh 0 rthresh 0
   ext2spice 
   ```
+![D3_inv_console](https://github.com/GauthamMulay/pes_pd/assets/113660503/7a8fbbbc-8abd-430b-8a6a-96e1c8f05bac)
+
+  
 - To View the extracted spice file use the command ```gedit sky130_inv.spice```
+
+  ![D3_inv_file](https://github.com/GauthamMulay/pes_pd/assets/113660503/4d43b27a-4e31-4b55-b173-9571fba3e08e)
+
 The above file has details of inverter netlist but the sources and their values are not specified. So we have to modify the file.
 
 - Grid size from the layout is 0.01u
@@ -81,8 +88,14 @@ The above file has details of inverter netlist but the sources and their values 
 
 To plot the graph run the command ``` ngspice sky130_inv.spice``` and ```plot y vs time a```
 
+![D3_graph](https://github.com/GauthamMulay/pes_pd/assets/113660503/67042656-5636-4232-a0db-0fd42e12f399)
+
+![D3_plotyvsa](https://github.com/GauthamMulay/pes_pd/assets/113660503/5d715f86-d765-45c8-b67f-76ccd150a4c6)
 
 **Results :**
+
+
+![D3_spice_file_output](https://github.com/GauthamMulay/pes_pd/assets/113660503/2ac66764-068f-441e-927a-f76c0ce554fa)
 
 <img width="337" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/f8ebbb34-90b0-45e1-af5a-644a6af50ab5">
 
