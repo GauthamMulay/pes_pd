@@ -82,6 +82,9 @@ if { [file exists $filename] == 1} {
 
 ![D4_placement_p1](https://github.com/GauthamMulay/pes_pd/assets/113660503/9902b8a9-59b3-40a5-838a-59991c7ae891)
 
+![inv](https://github.com/GauthamMulay/pes_pd/assets/113660503/0fade72e-7686-4492-bba5-1f89e0a100ca)
+
+
 ### Timing analysis with ideal clocks using openSTA:
 #### Setup time analysis and introduction to flip-flop setup time:
 - Timing analysis with ideal clocks is a fundamental aspect of digital circuit design and verification.
