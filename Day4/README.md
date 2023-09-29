@@ -5,6 +5,7 @@
 
 - The input and output ports must lie on the intersection of the vertical and the horizontal tracks.
 - The width of the std cell should be odd multiples of track pitch and the height should be odd multiples of track vertical pitch.
+- 
 2.To view the track file:
 ```
  cd Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/
