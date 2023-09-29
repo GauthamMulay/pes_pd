@@ -116,4 +116,7 @@ if { [file exists $filename] == 1} {
 * Clock net shielding involves isolating clock signals to minimize interference and crosstalk.
 ### Labs steps to run CTS using tritonCTS:
 * To run the CTS type the command: `run_cts`
-* This step will create a new 'cts' file in the synthesis directory.
+  
+![D4_cts](https://github.com/GauthamMulay/pes_pd/assets/113660503/a0034118-7fbd-4e16-b40c-1a9f53363828)
+
+
