@@ -36,8 +36,10 @@ Consider a netlist with flip-flops and combinational logic. We use combinational
 <img width="302" alt="image" src="https://github.com/GauthamMulay/pes_pd/assets/113660503/13c3144e-1cad-4d36-af15-b29704a8f782">
 
 **Running floorplan**
+
 Use Command ```run_floorplan``` to run the placement 
 To view the schematic use command ```magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &```
+![D2_flrcmd](https://github.com/GauthamMulay/pes_pd/assets/113660503/839502d7-00b3-48ec-b8ab-fa894ffb84d9)
 
 
 After Running this command, the placemnt def file is created inside the dir runs/placememt
@@ -49,29 +51,35 @@ After Running this command, the placemnt def file is created inside the dir runs
  ``` bash = ?
  magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 ```
+![D2_floorplan_full](https://github.com/GauthamMulay/pes_pd/assets/113660503/f3ba153c-1551-451f-983f-6430a1b87538)
 
 
 - We can see from the i/o's are placed at equidistance
 
-  
+  ![D2_floorplan](https://github.com/GauthamMulay/pes_pd/assets/113660503/0f5df14e-3976-415b-9eca-97640f5421e8)
+
 
 - To Align press 's' and 'v' and to zoom press 'z'
-- Instances are this
+
   
   
 **Placement**
   - To run placement run the command ```run_placement```  command to do placement and routing after this a def file is created inside the results directory which is used to view the shcematic
+    
+![D2_placecmd](https://github.com/GauthamMulay/pes_pd/assets/113660503/820260ab-1a59-4c4a-a58b-dca0ece3c9a2)
 
 
 - To open the schematic of placed design runthe following command
   ``` bash=?
   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
   ```
+![D2_placement_full](https://github.com/GauthamMulay/pes_pd/assets/113660503/49f38086-c64d-41e5-99ec-46c0cf35ecb1)
 
 
 - If we zoom in we can see the routing betweeen the instances 
  
 
+![D2_plc](https://github.com/GauthamMulay/pes_pd/assets/113660503/e9d73413-8ec2-48ba-b68c-192796a64de4)
 
 **Cell Design and Characterization Flow**
 **Cell Design Flow**
