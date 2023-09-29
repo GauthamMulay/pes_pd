@@ -41,6 +41,7 @@ set ::env(FP_IO_MODE) 2
   ```
 
 **16 Mask CMOS Process**
+
 1)Selecting a Substrate - Selecting the appropriate substrate to synthsize the design on.
 
 2)Creating active reagion for transistors - Adding layers of SiO2(40nm), Si3N4(80nm) and photoresist(1um). On top of the photoresist we put a mask layer. Pass UV light and remove the mask. Resist is removed. LOCOS(Local Oxidation of Silicon) is performed. Si3N4 is etched.
@@ -58,6 +59,7 @@ set ::env(FP_IO_MODE) 2
 8)Higher Level Metal Formation - Forming contacts and interconnects locally involves depositing a dielectric material like silicon dioxide, patterning it using photolithography, etching contact holes, depositing a barrier metal (e.g., titanium or titanium nitride), filling with a conductor (e.g., aluminum or copper) using chemical vapor deposition (CVD), and then planarizing through chemical-mechanical polishing (CMP).
 
 **Sky130 Basic Layers Layout and LEF using Inverter**
+
 - To extract the spice file use the following commands
   ```bash
   pwd
